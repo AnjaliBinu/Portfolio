@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background-color: #93B0AC;
+    margin: 0%;
+    padding: 5%;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+nav {
+    text-align: center;
+    background-color: #DBD9DA;
+    padding: 2%;
+    margin: 0.1%;
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    color: blue;
+}
+main {
+    text-align: center;
+}
+section:nth-child(odd) {
+    background-color: #C4B7AB;
+}
+section:nth-child(even) {
+    background-color: #D1C7BF;
+}
+section a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 2%;
+}
+section a:hover {
+    color: red;
+}
+section h3 {
+    text-align: center;
+    font-size: 19px;
+    color: black;
+}
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+section a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(29, 30, 29);
+    font-size: 15px;
+}
+
+.skills-list {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    background-color: #93B0AC;
+    font-size: 20px;
+    padding: 2%;
+}
+.projects-list {
+    list-style-type:lower-greek;
+    display: inline-block;
+    text-align: center;
+}
+.Hackathons-list {
+    display: flex;
+    justify-content: space-around;
+}
+.Hackathons-list li {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #C5BD96;
+}
+.education-list {
+    list-style-type: disc;
+    display: inline-block;
+}
+.education-list li {
+    margin-bottom: 10px;
+}
+.education-list li>p {
+    text-align: justify;
+}
+.education-list li>h3 {
+    text-align: left;
+}
+.contact-list {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+}
