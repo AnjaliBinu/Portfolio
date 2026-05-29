@@ -40,9 +40,13 @@ body {
    ========================================== */
 
 .flower-container {
-    width: 100%;
-    max-width: 280px;  /* Compact scale so it looks like an emblem banner icon */
-    margin: 0 auto 30px auto;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 150px;
+    height: 130px;
+    z-index: 10;
+    pointer-events: none;
 }
 
 .flower-container svg {
@@ -51,7 +55,7 @@ body {
 }
 
 .petal {
-    transform-origin: 473px 525px; /* Shared hinge anchor */
+    transform-origin: 473px 525px; 
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
